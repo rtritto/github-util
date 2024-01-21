@@ -175,6 +175,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fastify/busboy@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "@fastify/busboy@npm:2.1.0"
+  checksum: 7bb641080aac7cf01d88749ad331af10ba9ec3713ec07cabbe833908c75df21bd56249bb6173bdec07f5a41896b21e3689316f86684c06635da45f91ff4565a2
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -962,6 +969,18 @@ __metadata:
   checksum: 169b2beababfbb16e8a0ae813ee59d3e14d4960231c816615161ab5be68ec07a394dce59695742ac84295e2efab8d9e89bcf3abaf5e253dfbec3496e01bb9a65
   languageName: node
   linkType: hard
+
+"github-util@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "github-util@workspace:."
+  dependencies:
+    "@types/node": "npm:^20.11.5"
+    "@yarnpkg/sdks": "npm:^3.1.0"
+    tsx: "npm:^4.7.0"
+    typescript: "npm:^5.3.3"
+    undici: "npm:^6.4.0"
+  languageName: unknown
+  linkType: soft
 
 "glob-parent@npm:^5.1.2":
   version: 5.1.2
@@ -1821,6 +1840,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"undici@npm:^6.4.0":
+  version: 6.4.0
+  resolution: "undici@npm:6.4.0"
+  dependencies:
+    "@fastify/busboy": "npm:^2.0.0"
+  checksum: d6b19daaa05ffa1ef9af0cd6c22867386f9caab16a807898ca8a321916ddab0c1a027c1346638b1a917abff1f7624967eb7e93111c45a8feafa0df36d9ca5b2b
+  languageName: node
+  linkType: hard
+
 "unique-filename@npm:^3.0.0":
   version: 3.0.0
   resolution: "unique-filename@npm:3.0.0"
@@ -1896,14 +1924,3 @@ __metadata:
   checksum: 2286b5e8dbfe22204ab66e2ef5cc9bbb1e55dfc873bbe0d568aa943eb255d131890dfd5bf243637273d31119b870f49c18fcde2c6ffbb7a7a092b870dc90625a
   languageName: node
   linkType: hard
-
-"yarn-berry-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "yarn-berry-template@workspace:."
-  dependencies:
-    "@types/node": "npm:^20.11.5"
-    "@yarnpkg/sdks": "npm:^3.1.0"
-    tsx: "npm:^4.7.0"
-    typescript: "npm:^5.3.3"
-  languageName: unknown
-  linkType: soft
