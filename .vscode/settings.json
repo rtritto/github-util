@@ -1,5 +1,4 @@
 {
-  "css.validate": false,
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
@@ -17,7 +16,7 @@
     "**/.pnp.*": true,
     "**/.yarn": true
   },
-  "scss.validate": false,
+  "scm.showOutgoingChanges": "never",
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,

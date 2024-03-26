@@ -9,7 +9,7 @@ export const downloadRelease = async (owner: string, repo: string, assetNumber: 
       'User-Agent': `UA/${Date.now().toString()}`
     }
   })
-  let data
+  let data: TagDetail
   if (response.statusCode === 200) {
     data = await response.body.json() as TagDetail
   } else {
